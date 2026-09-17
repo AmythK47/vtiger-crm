@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[SUITE STARTED ---> Default suite]]>
+    </line>
+    <line>
+      <![CDATA[=====DataBase Connection Open=======]]>
+    </line>
+    <line>
+      <![CDATA[=====BROWSER LAUNCH=======]]>
+    </line>
+    <line>
+      <![CDATA[=====LOGIN=======]]>
+    </line>
+    <line>
+      <![CDATA[=====LOGOUT=======]]>
+    </line>
+    <line>
+      <![CDATA[=====LOGIN=======]]>
+    </line>
+    <line>
+      <![CDATA[=====LOGOUT=======]]>
+    </line>
+    <line>
+      <![CDATA[=====LOGIN=======]]>
+    </line>
+    <line>
+      <![CDATA[=====LOGOUT=======]]>
+    </line>
+    <line>
+      <![CDATA[=====CLOSE BROWSER=======]]>
+    </line>
+    <line>
+      <![CDATA[=====DataBase Connection Closed=======]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-09-17T14:05:59 IST" name="Default suite" finished-at="2026-09-17T14:07:40 IST" duration-ms="101727">
+    <groups>
+      <group name="Regression">
+        <method signature="CreateContactTest.createContactWithEndDateTest()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" name="createContactWithEndDateTest" class="com.vTiger.crm.contactsTest.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactWithOrgTest()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" name="createContactWithOrgTest" class="com.vTiger.crm.contactsTest.CreateContactTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" name="createContactTest" class="com.vTiger.crm.contactsTest.CreateContactTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-09-17T14:05:59 IST" name="Default test" finished-at="2026-09-17T14:07:40 IST" duration-ms="101727">
+      <class name="com.vTiger.crm.contactsTest.CreateContactTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:05:58 IST" name="configBS" finished-at="2026-09-17T14:05:58 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====DataBase Connection Open=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:05:59 IST" name="configBC" finished-at="2026-09-17T14:06:04 IST" duration-ms="5537" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====BROWSER LAUNCH=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:06:04 IST" name="configBM" finished-at="2026-09-17T14:06:05 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====LOGIN=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactTest()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:06:05 IST" name="createContactTest" finished-at="2026-09-17T14:07:24 IST" duration-ms="79393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:07:24 IST" name="configAM" finished-at="2026-09-17T14:07:25 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====LOGOUT=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:07:25 IST" name="configBM" finished-at="2026-09-17T14:07:26 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====LOGIN=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithEndDateTest()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:07:26 IST" name="createContactWithEndDateTest" finished-at="2026-09-17T14:07:29 IST" duration-ms="2974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithEndDateTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:07:29 IST" name="configAM" finished-at="2026-09-17T14:07:29 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====LOGOUT=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:07:29 IST" name="configBM" finished-at="2026-09-17T14:07:31 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====LOGIN=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:07:31 IST" name="createContactWithOrgTest" finished-at="2026-09-17T14:07:39 IST" duration-ms="8250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:07:39 IST" name="configAM" finished-at="2026-09-17T14:07:40 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====LOGOUT=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:07:40 IST" name="configAC" finished-at="2026-09-17T14:07:40 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====CLOSE BROWSER=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.vTiger.crm.contactsTest.CreateContactTest@28dcca0c]" started-at="2026-09-17T14:07:40 IST" name="configAS" finished-at="2026-09-17T14:07:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====DataBase Connection Closed=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.vTiger.crm.contactsTest.CreateContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
